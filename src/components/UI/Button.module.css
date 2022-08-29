@@ -1,0 +1,23 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    height: 50px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: beige;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:not(:disabled):hover {
+    background-color: rgb(240, 240, 155);
+}
+
+.button:disabled{
+    cursor: auto;
+    opacity: .4;
+}
